@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    object-fit: cover;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.logo {
+    height: 100px;
+    width: 140px;
+}
+
+header {
+    height: 9%;
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: red;
+}
+
+.textBox {
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 220, 195);
+}
+
+.offer {
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+#submitButton {
+    width: 140px;
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+}
+
+#submitButton:hover {
+    background-color: grey;
+    transform: translateY(-10px);
+}
+
+.rightsec {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 66%;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #525588;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: grey;
+    transform: translateY(-10px);
+}
+
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 18pt;
+    margin-top: 40px;
+    margin-right: 420px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.socialmed {
+    font-size: 30pt;
+    margin-top: 8px;
+    color: rgb(5, 47, 110);
+    transform: translateY(-20px);
+}
+
+.socialmed a {
+    text-decoration: none;
+    color: rgb(5, 47, 110);
+}
+
+.socialmed a:hover {
+    color: red;
+    transform: translateY(-10px);
+}
+
+.thumb {
+    margin-bottom: 50px;
+}
+
+.thumb li {
+    font-size: 12pt;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    float: left;
+    cursor: pointer;
+}
+
+.thumb li:hover {
+    transform: translateY(-10px);
+}
+
+.cars {
+    width: 900px;
+    height: 378px;
+}
+
+.aa {
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: darkgray;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-20px);
+}
+
+.bb {
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: yellow;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-20px);
+}
+
+.cc {
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgb(238, 88, 88);
+    width: 60px;
+    height: 60px;
+    transform: translateY(-20px);
+}
