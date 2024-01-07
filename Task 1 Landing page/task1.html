@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing page for website</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS file link-->
+    <link rel="stylesheet" type="text/css" media="screen" href="task1.css" />
+    <!--Icons link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--Header section-->
+    <header class="header">
+        <nav>
+            <div class="left">
+                <img src="logo.png" class=logo alt="COMPANY LOGO" />
+            </div>
+            <div class="right">
+                <ul>
+                    <ul><a href="#">BUY/RENT</a></ul>
+                    <ul><a href="#">SELL</a></ul>
+                    <ul><a href="#">MODELS</a></ul>
+                    <ul><a href="#">REVIEW</a></ul>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main section-->
+    <section class="one">
+        <div class="rightsec">
+            <div class="textBox">
+                <b>Crafting Experiences,<br>Fueling Journeys</b><br>
+                <div class="offer">
+                    Explore our top-quality cars for a thrilling driving experience.<br>
+                    Find your perfect sedan, SUV, or sports car with cutting-edge technology and
+                    exceptional performance.<br>
+                    <button type="button" id="submitButton">Learn More</button>
+                </div>
+            </div>
+            <img src="aa.png" class="cars">
+        </div>
+
+        <button type="button">Book a test drive!!</button>
+        <ul class="thumb">
+            <li><img src="aa.png" class="aa" onclick="imgslider('aa.png')" /></li>
+            <li><img src="bb.png" class="bb" onclick="imgslider('bb.png')" /></li>
+            <li><img src="cc.png" class="cc" onclick="imgslider('cc.png')" /></li>
+        </ul>
+    </section>
+
+    <!--Footer section -->
+    <footer>
+        <div class=socialmed>
+            <a href="#"><i class='bx bxl-instagram'></a></i>
+            <a href="#"><i class='bx bxl-whatsapp'></a></i>
+            <a href="#"><i class='bx bxl-twitter'></a></i>
+        </div>
+    </footer>
+
+    <!--Javascript section-->
+    <script type="text/javascript">
+        function imgslider(anything) {
+            document.querySelector('.cars').src = anything;
+        }
+    </script>
+
+
+</body>
+</html>
