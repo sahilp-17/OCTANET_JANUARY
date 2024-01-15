@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    background-color: var(--dark);
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 34pt;
+}
+
+#task_add {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22pt;
+}
+
+input,
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.task_input {
+    padding: 1px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 20pt;
+    margin-right: 6px;
+}
+
+.task_input::placeholder {
+    color: lightslategray;
+}
+
+.date_input {
+    padding: 1px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14pt;
+    margin-left: 4px;
+    color: lightslategray;
+}
+
+.submit_task {
+    color: rgb(147, 37, 147);
+    font-size: 16pt;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit_task:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 22pt;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 1px white;
+}
+
+#tasks .task {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(119, 119, 225);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.task_list {
+    text-align: center;
+    font-size: 22pt;
+    margin-top: 26px;
+}
+
+.task .content .text {
+    color: white;
+    font-size: 16pt;
+}
+
+.task .content .date {
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 14pt;
+}
+
+.task .action button {
+    cursor: pointer;
+    font-size: 16pt;
+    margin-right: 20px;
+}
+
+.task .action .edit {
+    color: lightgreen;
+}
+
+.task .action .edit:hover {
+    transform: translateY(-5px);
+}
+
+.task .action .delete {
+    color: yellow;
+}
+
+.task .action .delete:hover {
+    transform: translateY(-5px);
+}
+
