@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List </title>
+  <!--CSS file link-->
+  <link rel="stylesheet" type="text/css" media="screen" href="task2.css">
+</head>
+
+<body>
+    <!--Header section starts-->
+    <header>
+        <h1>ToDo List</h1>
+        <form id="task_add">
+            <input type="text" class="task_input" id="task_input" placeholder="Enter a task to do"/>
+            <input type="date" class="date_input" id="date_input"/>
+            <input type="submit" class="submit_task" id="submit_task" value="Add Task"/>
+        </form>
+    </header>
+    <!--Header section ends-->
+    
+    <!--Main section starts-->
+    <main>
+        <section class="task_list">
+            <h2>Tasks List</h2>
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value=""/>
+                        
+                    </div>
+                    <div class="action">
+                        <button class="edit">Edit Task</button>
+                        <button class="delete">Delete Task</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Main section ends-->
+
+    <!--Javascript file-->
+    <script src ="task2.js"></script>
+
+</body>
+</html>
